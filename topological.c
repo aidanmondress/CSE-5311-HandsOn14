@@ -34,7 +34,7 @@ int main()
     int size = sizeof(arr) / sizeof(item);
     qsort(arr, size, sizeof(item), difference);
     printf("Result - Topological Sort:\n");
-    for (int i = 0; i < size; i++) 
+    for(int i = 0; i < size; i++) 
         printf("%s\n", arr[i].name);
     return 0;
 }
